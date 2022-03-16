@@ -1,0 +1,30 @@
+a {
+  color: black;
+  text-decoration: none;
+
+  :hover {
+    transition: .25s;
+    color:lightgreen;
+  }
+}
+
+h1 {
+  a {
+    color: black!important;
+  }
+}
+
+.v-application .container {
+  max-width: 900px;
+}
+
+.theme--dark.v-application {
+  a {
+    color: white!important;
+
+    :hover {
+      transition: .25s;
+      color:lightgreen;
+    }
+  }
+}
